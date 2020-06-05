@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --past-color: #d3d3d3;
+    --present-color: #ff6961;
+    --future-color: #77dd77;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -8,17 +16,17 @@ textarea{
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: var(--primary-color);
+    border-left: 1px solid var(--primary-color);
     padding: 10px;
 }
 
 .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: var(--primary-color);
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid var(--primary-color);
 }
 
 .description{
@@ -33,41 +41,42 @@ textarea{
 .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid var(--secondary-color);;
 }
 
 .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-top: 1px dashed var(--primary-color);
 }
 
 .past {
-    background-color: #d3d3d3;
-    color: black;
+    background-color: var(--past-color);
+    color: var(--primary-color);
 }
 
 .present {
-    background-color: #ff6961;
-    color: black;
+    background-color: var(--present-color);
+    color: var(--primary-color);
 }
 
 .future {
-    background-color: #77dd77;
-    color: black;
+    background-color: var(--future-color);
+    color: var(--primary-color);
 }
 
 .saveBtn {
-    border-left: 1px solid black;
+    border-left: 1px solid var(--primary-color);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
-    color: white;
+    color: var(--secondary-color);
 }
 
 .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    cursor: pointer;
 }
 
 .fas {
@@ -76,4 +85,8 @@ textarea{
     width: 20px;
     top: 40%;
     left: 40%;
+}
+
+.fas:hover {
+    color: slategrey;
 }
