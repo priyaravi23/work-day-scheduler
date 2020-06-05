@@ -2,10 +2,11 @@
 
 ### Application Deployed To GitHub Pages 
 
+https://priyaravi23.github.io/work-day-scheduler/
 
 ### Description 
 
-*Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery*
+*Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Use Moment.js library to work with date and time*
 
 ### User Story 
 
